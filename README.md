@@ -38,11 +38,7 @@ $$
 
 Here, `R_i,stress` is the estimated asset return, `beta_i,crash` is its crash beta, and `R_market,shock` is the hypothetical S&P 500 return. This is a simplified historical sensitivity, not a prediction.
 
-For example, if an asset has a crash beta of **1.5** and the S&P 500 falls by **10%**, its estimated stressed return is:
-
-$$
-R_{i,\mathrm{stress}} = 1.5 \times (-10\%) = -15\%
-$$
+For example, with a crash beta of 1.5 and an S&P 500 shock of −10%, the asset’s estimated stressed return is 1.5 × (−10%) = −15%.
 
 ### 3. Portfolio Stress Test
 
